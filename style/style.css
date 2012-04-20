@@ -1,0 +1,74 @@
+body {
+	margin: 0px;
+	font-family: Tahoma, Arial, "BitStream vera Sans", sans-serif;
+	background-color: #DDFFDD;
+	overflow: hidden;
+}
+
+.container {
+	width: 360px;
+	margin: auto;
+	text-align: center;
+}
+
+	.scoreboard {
+		width: 300px;
+		font-weight: bold;
+		font-size: 14pt;
+		margin: auto;
+	}
+
+		.scoreboard .n1 {
+			float: left;
+		}
+		
+		.scoreboard .n2 {
+			float: right;
+		}
+		
+		.scoreboard span {
+			font-size: 12pt;
+			color: #008800;
+		}
+		
+
+	.clear {
+		clear: both;
+	}
+
+	.info {
+		text-align: center;
+		font-size: 24pt;
+		color: #008800;
+		padding-top: 30px;
+	}
+	
+	.choose {
+		width: 225px;
+		margin: auto;
+	}
+	
+		.choose div {
+			float: left;
+			margin: auto;
+			text-align: center;
+			padding-left: 17px;
+			cursor: pointer;
+		}
+	
+	.showdown {
+		width: 150px;
+		margin: auto;
+		display: none;
+	}
+	
+		.showdown div {
+			float: left;
+			width: 50px;
+		}
+		
+	.wait {
+		width: 50px;
+		margin: auto;
+		display: none;
+	}
